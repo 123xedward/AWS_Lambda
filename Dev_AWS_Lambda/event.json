@@ -1,0 +1,14 @@
+{
+  "Records": [
+    {
+      "s3": {
+        "bucket": {
+          "name": "calculator-input-emh1"
+        },
+        "object": {
+          "key": "numbers.txt"
+        }
+      }
+    }
+  ]
+}
