@@ -4,10 +4,10 @@ ses = boto3.client('ses')
 sns = boto3.client('sns')
 
 # In sandbox mode, SES requires senders and recipients to have verified emails
-VERIFIED_EMAIL = 'your.email@yourprovider.com'
+VERIFIED_EMAIL = 'your.email@yourprovider.com' 
 
 # Phone numbers must included the plus and country code
-PHONE_NUMBER = '+1###3334444'
+PHONE_NUMBER = '+52722####'
 
 # Option to add verified emails to each alert type
 RED_ALERT_EMAILS = [VERIFIED_EMAIL, ]
