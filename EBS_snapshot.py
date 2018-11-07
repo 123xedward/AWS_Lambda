@@ -22,4 +22,4 @@ def lambda_handler(event, context):
     	# Creating the snaphsot for all volumes within our region.
         ec2.create_snapshot(VolumeId=volume['VolumeId'],Description=volume['Attachments'][0]['InstanceId'])
 
-        print("All done with volume: " + volume['VolumeId'])
+        print("All done with volume:  " + volume['VolumeId'])
